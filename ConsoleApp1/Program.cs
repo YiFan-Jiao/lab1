@@ -46,7 +46,6 @@ for(int i =0; i < words.Length; i++)
     }
 }
 
-
 char charToCount;
 Console.WriteLine("Please enter a character to count.");
 ConsoleKeyInfo keyInfo = Console.ReadKey();
@@ -67,10 +66,6 @@ while (!isValid)
         charToCount = keyInfo.KeyChar;
     }
 }
-
-
-
-//Console.WriteLine($"\ncharacter you enter {charToCount}");
 
 int charCount = 0;
 int charLength = 0;
